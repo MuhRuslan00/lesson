@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600;1,800&display=swap"
         rel="stylesheet">
-    <title>Maket 8</title>
+    <title>Лэндинг</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script async src="./js/index.js"></script>
 </head>
 <body class="page">
     <div class="page__color">
@@ -18,24 +21,48 @@
                 <ul class="menu header__menu">
                     <li class="menu-item"><a class="header__menu-link active-link" href="#">home</a></li>
                     <li class="menu-item"><a class="header__menu-link" href="#portfolio">portfolio</a></li>
-                    <li class="menu-item"><a class="header__menu-link" href="#about us">about us</a></li>
+                    <li class="menu-item"><a class="header__menu-link" href="#aboutus">about us</a></li>
                     <li class="menu-item"><a class="header__menu-link" href="#contact">contact</a></li>
                 </ul>
-                </header>
+                <div class="popup-menu">
+                    <button class="popup-menu__button"></button>
+                    <ul class="popup-menu__list hide-popup">
+                        <li class="popup-menu__item">
+                            <a class="popup-menu__link" href="#">home</a>
+                        </li>
+
+                        <li class="popup-menu__item">
+                            <a class="popup-menu__link" href="#portfolio">portfolio</a>
+                        </li>
+
+                        <li class="popup-menu__item">
+                            <a class="popup-menu__link" href="#aboutus">about us</a>
+                        </li>
+
+                        <li class="popup-menu__item">
+                            <a class="popup-menu__link" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     </div>
+
     <main class="main">
         <div class="page__color">
             <section class="container section">
-                <div class="container__content">
+                <div class="contents">
                     <h1 class="content__heading">our strong organaisation</h1>
                     <p class="content__text">Lorem ipsum dolor sit amet, consectetur
                         adipis cing elit, sed do eiusmod tempor incididunt ut labore
                         et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
                     <button class="button" type="submit">Contact Us</button>
                 </div>
+
                 <iframe class="video" src="https://www.youtube.com/embed/CxgOKJh4zWE"></iframe>
             </section>
         </div>
+        <!-- Page 2 -->
         <section class="section providing">
             <div class="providing__content">
                 <h2 class="providing__heading text__heading">do you know we can provide for you ?</h2>
@@ -152,8 +179,8 @@
                 <button class="button__submit" type="submit">subscribe</button>
             </form>
         </section>
-         <!-- 5 page-->
-         <section class="feedback__grid container">
+        <!-- 5 page-->
+        <section class="feedback__grid container">
             <div class="feedback">
                 <div class="feedback__header">
                     <h2 class="feedback__heading text__heading">get in touch</h2>
@@ -187,8 +214,8 @@
             </div>
         </section>
     </main>
-     <!-- footer -->
-     <footer class="footer">
+    <!-- footer -->
+    <footer class="footer">
         <div class="footer__links section">
             <p class="footer__copyright">&copy;Copyright @Junaed 2016, All rights reserved.</p>
             <ul class="footer__link">
@@ -205,8 +232,4 @@
     </footer>
 </body>
 
-</html>
-
-    
-</body>
 </html>
