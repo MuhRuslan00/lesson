@@ -725,3 +725,41 @@ feedback__grid::after {
     margin: 0;
     margin-bottom: 17px;
 }
+/* footer */
+.footer {
+    background-color: #313030;
+    ;
+    padding: 0 1vw;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.footer__links {
+    box-sizing: border-box;
+    padding: 20px 0 0;
+    color: #B8B8B8;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    min-height: 112px;
+    background-color: #313030;
+    align-items: center;
+}
+
+.footer__copyright {
+    margin: 0;
+    line-height: 26px;
+}
+
+.footer__link>li {
+    display: inline-block;
+    padding-right: 18px;
+}
+
+.footer__link-a:hover {
+    cursor: pointer;
+    background-color: #000000;
+    min-height: 90px;
+}
